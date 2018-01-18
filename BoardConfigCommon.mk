@@ -45,11 +45,6 @@ LZMA_RAMDISK_TARGETS := recovery
 TARGET_KERNEL_CONFIG := lineageos_jf_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/jf
 
-
-# Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-6.0/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-
 # Audio
 BOARD_HAVE_SAMSUNG_CSDCLIENT := true
 BOARD_USES_ALSA_AUDIO := true
